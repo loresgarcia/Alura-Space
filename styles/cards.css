@@ -25,6 +25,11 @@
     width: 450px;
 }
 
+.card__imagem {
+    width: 450px;
+    border-radius: 10px 10px 0 0;
+}
+
 .card__tag {
     background-color: #D9D9D940;
     border-radius: 8px;
@@ -41,7 +46,7 @@
 
 .card__info {
     font-size: 1.2rem;
-    padding: 0 1.5rem 1rem 1.5rem; 
+    padding: 0 1.5rem 1rem 1.5rem;
 }
 
 .card__titulo {
@@ -52,8 +57,10 @@
 .card__texto {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card__texto img {
     cursor: pointer;
 }
+

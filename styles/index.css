@@ -1,13 +1,5 @@
-
-:root {
-  --bg-color-degrade: linear-gradient(#041833,#04244F,#154580);
-  --cor-primaria: #7B78E5;
-  --cor-terciaria:#FFFFFF;
-  --cor-do-input: linear-gradient(#C98CF1,#7B78E5);
-  
-}
 body {
-    background: var(--bg-color-degrade);
+    background: linear-gradient(#041833,#04244F,#154580);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
