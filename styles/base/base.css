@@ -33,6 +33,10 @@ body {
     line-height: 1;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
+    background: linear-gradient(#041833,#04244F,#154580);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 ol, ul {
     list-style: none;
